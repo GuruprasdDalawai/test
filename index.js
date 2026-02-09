@@ -12,6 +12,14 @@ function multiplication(a,b){
 
 }
 
+function substraction(a,b){
+    return a-b;
+}
+
+function division(a,b){
+    return a/b;
+}
+
 function main(callback){
     let a=10, b=20
     callback(a,b)
@@ -19,3 +27,6 @@ function main(callback){
 
 main(add)
 main(multiplication)
+main(substraction)
+main(division)
+
