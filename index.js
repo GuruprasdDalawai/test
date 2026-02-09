@@ -11,3 +11,5 @@ function main(callback){
     let a=10, b=20
     callback(a,b)
 }
+
+main(add)
